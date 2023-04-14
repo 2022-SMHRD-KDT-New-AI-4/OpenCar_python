@@ -4,7 +4,7 @@ import numpy as np
 import math
 from scipy.spatial import distance
 
-def calculate_EAR(eye): # 눈 거리 계산 !
+def calculate_EAR(eye): # 눈 거리 계산
 	A = distance.euclidean(eye[1], eye[5])
 	B = distance.euclidean(eye[2], eye[4])
 	C = distance.euclidean(eye[0], eye[3])
