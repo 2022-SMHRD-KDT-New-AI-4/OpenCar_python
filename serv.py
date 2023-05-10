@@ -9,7 +9,7 @@ from stream import Streamer
 app = Flask( __name__ )
 streamer = Streamer()
 
-broadcast = "http://211.63.240.23:5001/"
+broadcast = "http://211.63.240.23:5001/"  # 포트 주소
 @app.route('/on', methods= ['GET','POST'])
 def on():
     
