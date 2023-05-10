@@ -62,8 +62,8 @@ class Streamer :
     def update(self):
 
         face_detector = dlib.get_frontal_face_detector()
-        landmark_detector = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
-        model = tf.keras.models.load_model('Test0429_4.h5')
+        landmark_detector = dlib.shape_predictor('modle/shape_predictor_68_face_landmarks.dat')
+        model = tf.keras.models.load_model('modle/Test0429_4.h5')
         cnt=0
 
                     
